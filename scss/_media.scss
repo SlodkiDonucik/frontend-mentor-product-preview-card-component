@@ -1,0 +1,55 @@
+@media (max-width: 992px) {
+    .card{
+        width: 75%;
+        height: auto;
+    }
+    .price{
+        gap: 25px;
+    }
+    .photo{
+       height: 605px;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .card{
+        flex-direction: column;
+        width:90%;
+        height: auto;
+        margin: 25px 0 50px 0;
+
+    }
+    .photo{
+        width: 100%;
+        height: 300px;
+        background-image: url(../images/image-product-mobile.jpg);
+        border-radius: 15px 15px 0 0;
+        background-size: cover;
+        background-position: center;
+    }
+    .content{
+        width: 100%;
+        padding: 25px;
+
+        h1{
+            font-size: 28px;
+        }
+        h3, p{
+            font-size: 12px;
+        }
+    }
+    .attribution{
+        position: relative;
+        bottom: 30px;
+        font-size: 11px;
+    }
+}
+@media (max-width: 564px){
+    .photo{
+        height: 250px;
+    }
+    .price{
+        gap: 25px;
+    }
+}
